@@ -16,7 +16,7 @@
       <AdditionalIncludeDirectories>$(libpngDir)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(libpngDir)\bin\VS2015\$(GDTCRT)\$(GDTPlatform)\$(ConfigurationFolderName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(libpngDir)\bin\VS2015\$(AMDTCRT)\$(AMDTPlatform)\$(ConfigurationFolderName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libpng16.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
